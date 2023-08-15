@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ốc Cô Huyền</title>
+    <link rel="stylesheet" href="~/js/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <main role="main" class="pb-8">
+            @RenderBody()
+        </main>
+    </div>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <hr />
+                </div>
+            </div>
+        </div>
+
+    </footer><!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <script src="~/js/purecounter/purecounter_vanilla.js"></script>
+    <script src="~/js/aos/aos.js"></script>
+    <script src="~/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/glightbox/js/glightbox.min.js"></script>
+    <script src="~/js/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/js/swiper/swiper-bundle.min.js"></script>
+    <script src="~/js/waypoints/noframework.waypoints.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/js/php-email-form/validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="~/lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="~/lib/jquery/jquery.unobtrusive-ajax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajax-unobtrusive/3.2.6/jquery.unobtrusive-ajax.min.js"></script>
+    <!-- Template Main JS File -->
+    <script src="~/css/main.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,185 @@
+﻿
+<!DOCTYPE html>
+<html lang=en class=html-home-page>
+<head>
+    <title>Quán Ốc Cô Huyền</title>
+    <meta charset=UTF-8>
+    <meta name=description content="">
+    <meta name=keywords content="">
+    <meta name=generator content=nopCommerce>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link href=~/lib/jquery-ui.min.js rel=stylesheet>
+    <link href=~/Style/styles.css rel=stylesheet>
+    <link href=~/lib/nivo-slider.css rel=stylesheet>
+    <link href=~/lib/custom.css rel=stylesheet>
+    <link rel="shortcut icon" href=\icons\icons_0\favicon.ico>
+    <link rel=stylesheet href=~/Style/styles_vec.css>
+      <link rel="stylesheet" type="text/css" href="~/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <style>
+        .header-lower {
+            margin: 0 auto; /* Sử dụng margin auto để căn giữa theo chiều ngang */
+            max-width: 200px; /* Tùy chỉnh kích thước tối đa của phần tử */
+            /* Bổ sung các thuộc tính CSS khác nếu cần thiết */
+        }
+    </style>
+    <body>
+        <div class=ajax-loading-block-window style=display:none></div>
+        <div id=dialog-notifications-success title="Thông báo" style=display:none></div>
+        <div id=dialog-notifications-error title=lỗi style=display:none></div>
+        <div id=dialog-notifications-warning title="Cảnh báo" style=display:none></div>
+        <div id=bar-notification class=bar-notification-container data-close=Gần></div>
+        <!--[if lte IE 8]><div style=clear:both;height:59px;text-align:center;position:relative><a href=http://www.microsoft.com/windows/internet-explorer/default.aspx target=_blank> <img src=/Themes/DefaultClean/Content/images/ie_warning.jpg height=42 width=820 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."> </a></div><![endif]-->
+        <div class=master-wrapper-page>
+            <div class=header>
+                <div class=header-upper>
+                    <div class=header-selectors-wrapper>
+                        <div class=language-selector>
+                            <select id=customerlanguage name=customerlanguage onchange=setLocation(this.value) aria-label="Languages selector">
+                                <option selected value="">Tiếng Việt</option>
+                                <option value="">English</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=header-lower>
+                <div class=header-logo>
+                    <a asp-action="Index" asp-controller="Product">
+                        <img alt="Quán Cô Huyền" src="~/img/shopping-cart/food.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        @RenderBody()
+        @*<div class=footer>
+            <div class="footer-block follow-us">
+                <div class=newsletter>
+                    <div class=title>
+                        <strong>Bản tin</strong>
+                    </div>
+                    <div class=newsletter-subscribe id=newsletter-subscribe-block>
+                        <div class=newsletter-email>
+                            <input id=newsletter-email class=newsletter-subscribe-text placeholder="Ghi địa chỉ email của bạn ở đây..." aria-label="Đăng ký nhận bản tin của chúng tôi" type=email name=NewsletterEmail>
+                            <input type=button value="Theo dõi" id=newsletter-subscribe-button class="button-1 newsletter-subscribe-button">
+                        </div>
+                        <div class=newsletter-validation>
+                            <span id=subscribe-loading-progress style=display:none class=please-wait>Chờ đợi...</span>
+                            <span class=field-validation-valid data-valmsg-for=NewsletterEmail data-valmsg-replace=true></span>
+                        </div>
+                    </div>
+                    <div class=newsletter-result id=newsletter-result-block></div>
+                </div>
+            </div>
+        </div>*@
+            <div class=newsletter-result id=newsletter-result-block></div>
+      @*  <div class=footer-lower>
+        </div>*@
+    </body>
+</head>
+</html>
+<script src=~/lib/jquery-3.4.1.min.js></script>
+<script src=~/lib/jquery.validate.min.js></script>
+<script src=~/lib/jquery.validate.unobtrusive.min.js></script>
+<script src=~/lib/jquery-ui.min.js></script>
+<script src=~/lib/jquery-migrate-3.1.0.min.js></script>
+<script src=~/js/public.common.js></script>
+<script src=~/js/public.ajaxcart.js></script>
+<script src=~/js/public.countryselect.js></script>
+<script src=~/lib/jquery.nivo.slider.js></script>
+  <script src="~/js/jquery-3.2.1.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/js/plugins/pace.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".header").on("mouseenter", "#topcartlink", function () {
+            $("#flyout-cart").addClass("active")
+        });
+        $(".header").on("mouseleave", "#topcartlink", function () {
+            $("#flyout-cart").removeClass("active")
+        });
+        $(".header").on("mouseenter", "#flyout-cart", function () {
+            $("#flyout-cart").addClass("active")
+        });
+        $(".header").on("mouseleave", "#flyout-cart", function () {
+            $("#flyout-cart").removeClass("active")
+        })
+    })
+</script>
+<script>
+    $("#small-search-box-form").on("submit", function (n) {
+        $("#small-searchterms").val() == "" && (alert("Vui lòng nhập một số từ khóa tìm kiếm"),
+            $("#small-searchterms").focus(),
+            n.preventDefault())
+    })
+</script>
+
+<script>
+    var localized_data = {
+        AjaxCartFailure: "Failed to add the product. Please refresh the page and try one more time."
+    };
+    AjaxCart.init(!1, ".header-links .cart-qty", ".header-links .wishlist-qty", "#flyout-cart", localized_data)
+</script>
+<script>
+    $(document).ready(function () {
+        $(".menu-toggle").on("click", function () {
+            $(this).siblings(".top-menu.mobile").slideToggle("slow")
+        });
+        $(".top-menu.mobile .sublist-toggle").on("click", function () {
+            $(this).siblings(".sublist").slideToggle("slow")
+        })
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        $(".footer-block .title").on("click", function () {
+            var n = window, t = "inner", i;
+            "innerWidth" in window || (t = "client",
+                n = document.documentElement || document.body);
+            i = {
+                width: n[t + "Width"],
+                height: n[t + "Height"]
+            };
+            i.width < 769 && $(this).siblings(".list").slideToggle("slow")
+        })
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        $(".block .title").on("click", function () {
+            var n = window, t = "inner", i;
+            "innerWidth" in window || (t = "client",
+                n = document.documentElement || document.body);
+            i = {
+                width: n[t + "Width"],
+                height: n[t + "Height"]
+            };
+            i.width < 1001 && $(this).siblings(".listbox").slideToggle("slow")
+        })
+    })
+</script>
+<script>
+    function addToCart(id, name, price, quantity) {
+        var data = {
+            id: id,
+            name: name,
+            price: price,
+            quantity: quantity
+        };
+        $.post("/Product/OnPostAddToCart", data, function (response) {
+            alert(response.message);
+        });
+    }
+</script>

@@ -1,0 +1,2645 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CheckApiWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CheckApiWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\Style\\styles.css",
+      "PackagePath": "staticwebassets\\Style\\styles.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\Style\\styles_vec.css",
+      "PackagePath": "staticwebassets\\Style\\styles_vec.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\aos\\aos.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\aos\\aos.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\aos\\aos.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx-diagram.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-diagram.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx-diagram.min.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-diagram.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx-gantt.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-gantt.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx-gantt.min.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx-gantt.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.carmine.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.carmine.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.carmine.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.carmine.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.common.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.common.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.contrast.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.contrast.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.contrast.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.contrast.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.dark.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.dark.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.darkmoon.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkmoon.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.darkmoon.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkmoon.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.darkviolet.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkviolet.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.darkviolet.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.darkviolet.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.greenmist.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.greenmist.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.greenmist.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.greenmist.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.light.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.light.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.blue.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.dark.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.blue.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.dark.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.blue.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.light.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.blue.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.blue.light.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.lime.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.dark.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.lime.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.dark.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.lime.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.light.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.lime.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.lime.light.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.orange.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.dark.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.orange.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.dark.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.orange.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.light.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.orange.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.orange.light.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.purple.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.dark.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.purple.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.dark.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.purple.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.light.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.purple.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.purple.light.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.teal.dark.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.dark.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.teal.dark.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.dark.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.teal.light.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.light.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.material.teal.light.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.material.teal.light.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.softblue.compact.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.softblue.compact.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\dx.softblue.css",
+      "PackagePath": "staticwebassets\\css\\devextreme\\dx.softblue.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.ttf"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-300.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.ttf"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-400.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.ttf"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-500.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.ttf"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\fonts\\Roboto-700.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\icons\\dxicons.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.ttf"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\icons\\dxicons.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\icons\\dxicons.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxicons.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.ttf",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.ttf"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff2",
+      "PackagePath": "staticwebassets\\css\\devextreme\\icons\\dxiconsmaterial.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\fooditem.js",
+      "PackagePath": "staticwebassets\\css\\fooditem.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\img\\Untitled.png",
+      "PackagePath": "staticwebassets\\css\\img\\Untitled.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\img\\logo.png",
+      "PackagePath": "staticwebassets\\css\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\index.js",
+      "PackagePath": "staticwebassets\\css\\index.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\css\\style1.css",
+      "PackagePath": "staticwebassets\\css\\style1.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\delete.js",
+      "PackagePath": "staticwebassets\\delete.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\fonts\\open-sans-v18-vietnamese_latin_cyrillic-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\open-sans-v18-vietnamese_latin_cyrillic-regular.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\1f16b90b-374b-4d59-a844-802793a5179d.jpeg",
+      "PackagePath": "staticwebassets\\images\\1f16b90b-374b-4d59-a844-802793a5179d.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\31f8baa4-0a57-48dc-93a4-20c6169aab92.jpeg",
+      "PackagePath": "staticwebassets\\images\\31f8baa4-0a57-48dc-93a4-20c6169aab92.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\413c5453-3c16-4b5c-800e-8abde80d37bc.jpeg",
+      "PackagePath": "staticwebassets\\images\\413c5453-3c16-4b5c-800e-8abde80d37bc.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\4fd4fcaf-a837-4da9-8c58-2fbeeeffcf4c.jpeg",
+      "PackagePath": "staticwebassets\\images\\4fd4fcaf-a837-4da9-8c58-2fbeeeffcf4c.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\9017bdbb-0989-490d-98cb-920439165918.jpeg",
+      "PackagePath": "staticwebassets\\images\\9017bdbb-0989-490d-98cb-920439165918.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\93ac242e-f414-42fb-b5ac-766c66e29614.jpeg",
+      "PackagePath": "staticwebassets\\images\\93ac242e-f414-42fb-b5ac-766c66e29614.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\945225ac-4920-4b1f-b0f3-15a4ac4c3796.jpeg",
+      "PackagePath": "staticwebassets\\images\\945225ac-4920-4b1f-b0f3-15a4ac4c3796.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\a5469771-d96f-4b80-89b1-432378e9cfb1.jpeg",
+      "PackagePath": "staticwebassets\\images\\a5469771-d96f-4b80-89b1-432378e9cfb1.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\a7028389-7435-4bb8-9912-049b905d5155.jpeg",
+      "PackagePath": "staticwebassets\\images\\a7028389-7435-4bb8-9912-049b905d5155.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\banner\\banner1.png",
+      "PackagePath": "staticwebassets\\images\\banner\\banner1.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\banner\\banner2.png",
+      "PackagePath": "staticwebassets\\images\\banner\\banner2.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\banner\\banner3.png",
+      "PackagePath": "staticwebassets\\images\\banner\\banner3.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\e6beaeac-71b4-46a6-902f-543190aa35c8.jpeg",
+      "PackagePath": "staticwebassets\\images\\e6beaeac-71b4-46a6-902f-543190aa35c8.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\ee76f69c-2311-43a2-be3d-5997f17ec777.jpeg",
+      "PackagePath": "staticwebassets\\images\\ee76f69c-2311-43a2-be3d-5997f17ec777.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\f7d3b361-b857-4833-91ce-79936fe24968.jpeg",
+      "PackagePath": "staticwebassets\\images\\f7d3b361-b857-4833-91ce-79936fe24968.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\foodie hunter.png",
+      "PackagePath": "staticwebassets\\images\\foodie hunter.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\foodielogo.png",
+      "PackagePath": "staticwebassets\\images\\foodielogo.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\menu-icon.png",
+      "PackagePath": "staticwebassets\\images\\menu-icon.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\shopping-bag.png",
+      "PackagePath": "staticwebassets\\images\\shopping-bag.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\toggle-white.png",
+      "PackagePath": "staticwebassets\\images\\toggle-white.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\images\\wishlist-button.png",
+      "PackagePath": "staticwebassets\\images\\wishlist-button.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\about\\about-us.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-us.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\about\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\about\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\about\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\about\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\about\\testimonial-author.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\testimonial-author.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\about\\testimonial-pic.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\testimonial-pic.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\banner\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-7.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-8.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\blog-9.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-9.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\details\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\blog-author.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\blog\\details\\blog-details.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\blog-details.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\footer-logo.png",
+      "PackagePath": "staticwebassets\\img\\footer-logo.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\hero\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\icon\\calendar.png",
+      "PackagePath": "staticwebassets\\img\\icon\\calendar.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\icon\\cart.png",
+      "PackagePath": "staticwebassets\\img\\icon\\cart.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\icon\\compare.png",
+      "PackagePath": "staticwebassets\\img\\icon\\compare.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\icon\\heart.png",
+      "PackagePath": "staticwebassets\\img\\icon\\heart.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\icon\\search.png",
+      "PackagePath": "staticwebassets\\img\\icon\\search.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\instagram\\instagram-1.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\instagram\\instagram-2.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\instagram\\instagram-3.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\instagram\\instagram-4.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\instagram\\instagram-5.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-5.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\instagram\\instagram-6.jpg",
+      "PackagePath": "staticwebassets\\img\\instagram\\instagram-6.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\payment.png",
+      "PackagePath": "staticwebassets\\img\\payment.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product-sale.png",
+      "PackagePath": "staticwebassets\\img\\product-sale.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-13.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-13.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-14.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-14.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-7.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shop-details\\details-payment.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\details-payment.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shop-details\\product-big-2.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big-2.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shop-details\\product-big-3.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big-3.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shop-details\\product-big-4.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big-4.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shop-details\\product-big.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shop-details\\thumb-1.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\thumb-1.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shop-details\\thumb-2.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\thumb-2.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shop-details\\thumb-3.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\thumb-3.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shop-details\\thumb-4.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\thumb-4.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\1.jpeg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\1.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\1.png",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\1.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\2.jpeg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\2.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\2.png",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\2.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\3.jpeg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\3.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\3.png",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\3.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\4.jpeg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\4.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\4.png",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\4.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\img\\shopping-cart\\food.png",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\food.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\js\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\js\\aos\\aos.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\js\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos\\aos.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\js\\aos\\aos.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\js\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\js\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\js\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\js\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\js\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\js\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\js\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\js\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\js\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\js\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\js\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\js\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\js\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\fooditem.js",
+      "PackagePath": "staticwebassets\\js\\css\\fooditem.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\biryani\\Ambur-Chicken-Biryani.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\biryani\\Ambur-Chicken-Biryani.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\biryani\\Chicken-Biryani-hyd.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\biryani\\Chicken-Biryani-hyd.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\biryani\\egg-biryani.jpeg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\biryani\\egg-biryani.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\biryani\\goan-fish-biryani.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\biryani\\goan-fish-biryani.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\biryani\\hyd-Mutton-Biryani.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\biryani\\hyd-Mutton-Biryani.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\biryani\\kamrupi-biryani.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\biryani\\kamrupi-biryani.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\biryani\\kashmiri.pulao.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\biryani\\kashmiri.pulao.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\biryani\\memonibiryani.png",
+      "PackagePath": "staticwebassets\\js\\css\\images\\biryani\\memonibiryani.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\biryani\\mughlai-biryani.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\biryani\\mughlai-biryani.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chicken\\Chicken-Curry.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chicken\\Chicken-Curry.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chicken\\Chicken-Masala.jpeg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chicken\\Chicken-Masala.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chicken\\Chicken-do-Pyaza.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chicken\\Chicken-do-Pyaza.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chicken\\Chicken_roast.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chicken\\Chicken_roast.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chicken\\Handi-chicken.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chicken\\Handi-chicken.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chicken\\Murgh-Musallam.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chicken\\Murgh-Musallam.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chicken\\Paneer-Butter-Masala.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chicken\\Paneer-Butter-Masala.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chinese\\ChickenManchurian.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chinese\\ChickenManchurian.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chinese\\Chili-Chicken.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chinese\\Chili-Chicken.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chinese\\cabbage-momos-.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chinese\\cabbage-momos-.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chinese\\chowmin.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chinese\\chowmin.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chinese\\mmos.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chinese\\mmos.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chinese\\spring-rolls.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chinese\\spring-rolls.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chinese\\szechuan-chicken.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chinese\\szechuan-chicken.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\chinese\\veg-fried-rice.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\chinese\\veg-fried-rice.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\foodie hunter.png",
+      "PackagePath": "staticwebassets\\js\\css\\images\\foodie hunter.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\foodielogo.png",
+      "PackagePath": "staticwebassets\\js\\css\\images\\foodielogo.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\paneer\\Matar-Paneer.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\paneer\\Matar-Paneer.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\paneer\\Paneer-Do-Pyaza.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\paneer\\Paneer-Do-Pyaza.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\paneer\\Paneer-Hyderabadi.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\paneer\\Paneer-Hyderabadi.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\paneer\\palak-paneer.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\paneer\\palak-paneer.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\paneer\\paneer-butter-masala.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\paneer\\paneer-butter-masala.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\paneer\\paneer-lababdar.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\paneer\\paneer-lababdar.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\paneer\\shahi-paneer.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\paneer\\shahi-paneer.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\paneer\\vegetable-curry.jpeg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\paneer\\vegetable-curry.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\south indian\\Butter-Masala-Dosa.png",
+      "PackagePath": "staticwebassets\\js\\css\\images\\south indian\\Butter-Masala-Dosa.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\south indian\\Rava-Uttapam.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\south indian\\Rava-Uttapam.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\south indian\\idli-with-rice-flour.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\south indian\\idli-with-rice-flour.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\south indian\\masala-dosa.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\south indian\\masala-dosa.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\south indian\\mysore-bonda.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\south indian\\mysore-bonda.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\south indian\\onion-uttapam.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\south indian\\onion-uttapam.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\south indian\\plain-dosa.jpeg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\south indian\\plain-dosa.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\south indian\\sambhar-vada.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\south indian\\sambhar-vada.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\vegetable\\VEG-JALFREZI.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\vegetable\\VEG-JALFREZI.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\vegetable\\navratan-korma_-vegetable.png",
+      "PackagePath": "staticwebassets\\js\\css\\images\\vegetable\\navratan-korma_-vegetable.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\vegetable\\vegetable-biryani.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\vegetable\\vegetable-biryani.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\vegetable\\vegetable-curry.jpeg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\vegetable\\vegetable-curry.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\vegetable\\vegetable-kolhapuri.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\vegetable\\vegetable-kolhapuri.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\vegetable\\vegetable-masala.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\vegetable\\vegetable-masala.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\images\\vegetable\\vegetable-pakora.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\images\\vegetable\\vegetable-pakora.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\about\\about-us.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\about\\about-us.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\about\\team-1.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\about\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\about\\team-2.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\about\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\about\\team-3.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\about\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\about\\team-4.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\about\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\about\\testimonial-author.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\about\\testimonial-author.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\about\\testimonial-pic.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\about\\testimonial-pic.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\banner\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\banner\\banner-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\blog-7.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\blog-8.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\blog-9.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\blog-9.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\details\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\details\\blog-author.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\blog\\details\\blog-details.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\blog\\details\\blog-details.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\footer-logo.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\footer-logo.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\hero\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\hero\\hero-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\icon\\calendar.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\icon\\calendar.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\icon\\cart.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\icon\\cart.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\icon\\compare.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\icon\\compare.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\icon\\heart.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\icon\\heart.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\icon\\search.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\icon\\search.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\instagram\\instagram-1.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\instagram\\instagram-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\instagram\\instagram-2.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\instagram\\instagram-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\instagram\\instagram-3.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\instagram\\instagram-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\instagram\\instagram-4.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\instagram\\instagram-4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\instagram\\instagram-5.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\instagram\\instagram-5.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\instagram\\instagram-6.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\instagram\\instagram-6.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\logo.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\payment.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\payment.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product-sale.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product-sale.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-13.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-13.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-14.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-14.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-7.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shop-details\\details-payment.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shop-details\\details-payment.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shop-details\\product-big-2.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shop-details\\product-big-2.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shop-details\\product-big-3.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shop-details\\product-big-3.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shop-details\\product-big-4.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shop-details\\product-big-4.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shop-details\\product-big.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shop-details\\product-big.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shop-details\\thumb-1.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shop-details\\thumb-1.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shop-details\\thumb-2.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shop-details\\thumb-2.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shop-details\\thumb-3.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shop-details\\thumb-3.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shop-details\\thumb-4.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shop-details\\thumb-4.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\1.jpeg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\1.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\1.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\1.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\2.jpeg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\2.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\2.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\2.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\3.jpeg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\3.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\3.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\3.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\4.jpeg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\4.jpeg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\4.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\4.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\cart-1.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\cart-2.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\cart-3.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\cart-4.jpg",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\cart-4.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\img\\shopping-cart\\food.png",
+      "PackagePath": "staticwebassets\\js\\css\\img\\shopping-cart\\food.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\index.css",
+      "PackagePath": "staticwebassets\\js\\css\\index.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\css\\index.js",
+      "PackagePath": "staticwebassets\\js\\css\\index.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\js\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\js\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\js\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\js\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\js\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\js\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\js\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\js\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\chart.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\chart.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\jquery-ui.custom.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery-ui.custom.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\moment.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\pace.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\pace.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\select2.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\select2.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\plugins\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\sweetalert.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\public.ajaxcart.js",
+      "PackagePath": "staticwebassets\\js\\public.ajaxcart.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\public.common.js",
+      "PackagePath": "staticwebassets\\js\\public.common.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\public.countryselect.js",
+      "PackagePath": "staticwebassets\\js\\public.countryselect.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\js\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\js\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\style.css",
+      "PackagePath": "staticwebassets\\js\\style.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\js\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\validate.js",
+      "PackagePath": "staticwebassets\\js\\validate.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\js\\waypoints\\noframework.waypoints.js",
+      "PackagePath": "staticwebassets\\js\\waypoints\\noframework.waypoints.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\lib\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\lib\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\custom.css",
+      "PackagePath": "staticwebassets\\lib\\custom.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\lib\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\footable.js",
+      "PackagePath": "staticwebassets\\lib\\footable.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\images\\fg-img.png",
+      "PackagePath": "staticwebassets\\lib\\images\\fg-img.png"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\images\\team.jpg",
+      "PackagePath": "staticwebassets\\lib\\images\\team.jpg"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-migrate-3.1.0.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-migrate-3.1.0.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery.nivo.slider.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.nivo.slider.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\jquery\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\loading.gif"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\main.css",
+      "PackagePath": "staticwebassets\\lib\\main.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\main.js",
+      "PackagePath": "staticwebassets\\lib\\main.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\nivo-slider.css",
+      "PackagePath": "staticwebassets\\lib\\nivo-slider.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\select2.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\select2.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\select2.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\style.css",
+      "PackagePath": "staticwebassets\\lib\\style.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\lib\\util.css",
+      "PackagePath": "staticwebassets\\lib\\util.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\main.js",
+      "PackagePath": "staticwebassets\\main.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\chart.js",
+      "PackagePath": "staticwebassets\\plugins\\chart.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\plugins\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\jquery-ui.custom.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-ui.custom.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\moment.min.js",
+      "PackagePath": "staticwebassets\\plugins\\moment.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\pace.min.js",
+      "PackagePath": "staticwebassets\\plugins\\pace.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\select2.min.js",
+      "PackagePath": "staticwebassets\\plugins\\select2.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\plugins\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\plugins\\sweetalert.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\popper.min.js",
+      "PackagePath": "staticwebassets\\popper.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\site.js",
+      "PackagePath": "staticwebassets\\site.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\uploads\\Book1.xls",
+      "PackagePath": "staticwebassets\\uploads\\Book1.xls"
+    },
+    {
+      "Id": "D:\\WEB\\CheckApiWeb\\wwwroot\\waypoints\\noframework.waypoints.js",
+      "PackagePath": "staticwebassets\\waypoints\\noframework.waypoints.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CheckApiWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CheckApiWeb.props",
+      "PackagePath": "build\\CheckApiWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CheckApiWeb.props",
+      "PackagePath": "buildMultiTargeting\\CheckApiWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CheckApiWeb.props",
+      "PackagePath": "buildTransitive\\CheckApiWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

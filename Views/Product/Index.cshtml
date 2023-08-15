@@ -1,0 +1,384 @@
+﻿@model List<CheckApiWeb.Models.Item>;
+@{
+
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang=en class=html-home-page>
+<head>
+    <title>Quán Ốc Cô Huyền</title>
+    <meta charset=UTF-8>
+    <meta name=description content="">
+    <meta name=keywords content="">
+    <meta name=generator content=nopCommerce>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link href=~/lib/jquery-ui.min.js rel=stylesheet>
+    <link href=~/Style/styles.css rel=stylesheet>
+    <link href=~/lib/nivo-slider.css rel=stylesheet>
+    <link href=~/lib/custom.css rel=stylesheet>
+    <link rel="shortcut icon" href=\icons\icons_0\favicon.ico>
+    <link rel=stylesheet href=~/Style/styles_vec.css>
+    <body>
+        <div class=ajax-loading-block-window style=display:none></div>
+        <div id=dialog-notifications-success title="Thông báo" style=display:none></div>
+        <div id=dialog-notifications-error title=lỗi style=display:none></div>
+        <div id=dialog-notifications-warning title="Cảnh báo" style=display:none></div>
+        <div id=bar-notification class=bar-notification-container data-close=Gần></div>
+        <!--[if lte IE 8]><div style=clear:both;height:59px;text-align:center;position:relative><a href=http://www.microsoft.com/windows/internet-explorer/default.aspx target=_blank> <img src=/Themes/DefaultClean/Content/images/ie_warning.jpg height=42 width=820 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."> </a></div><![endif]-->
+        <div class=master-wrapper-page>
+            <div class=header>
+                <div class=header-upper>
+                    <div class=header-selectors-wrapper>
+                        <div class=language-selector>
+                            <select id=customerlanguage name=customerlanguage onchange=setLocation(this.value) aria-label="Languages selector">
+                                <option selected value="">Tiếng Việt</option>
+                                <option value="">English</option>
+                            </select>
+                        </div>
+                        <div class=language-selector>
+                            <select data-val=true data-val-required="The SelectedStoreId field is required." id=SelectedStoreId name=SelectedStoreId onchange=changeStore(this.value)>
+                                <option selected value=1>Miền Bắc</option>
+                                <option value=2>Miền Nam </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class=header-links-wrapper>
+                        <div class=header-links>
+                            <ul>
+                                <li>
+                                    <a href="" class=ico-register>Đăng ký</a>
+                                <li>
+                                    <a href="" class=ico-login>Chào : @ViewBag.Name</a>
+                                <li>
+                                    <a href="" class=ico-wishlist>
+                                        <span class=wishlist-label>Danh sách yêu thích</span>
+                                        <span class=wishlist-qty>(0)</span>
+                                    </a>
+                                <li id=topcartlink>
+                                    <a asp-action="Details" asp-controller="Product" class=ico-cart>
+                                        <span class=cart-label>Giỏ hàng</span>
+                                        <span class=cart-qty>(0)</span>
+                                    </a>
+                            </ul>
+                        </div>
+                        <div id=flyout-cart class=flyout-cart>
+                            <div class=mini-shopping-cart>
+                                <div class=count>
+                                    Có <a href="">0 mục</a>
+                                    trong giỏ hàng của bạn.
+                                </div>
+                                <div class=totals>
+                                    Thành tiền: <strong></strong>
+                                </div>
+                                <div class=buttons>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=header-lower>
+                <div class=header-logo>
+                    <a href="">
+                        <img alt="Quán Cô Huyền" src="~/img/shopping-cart/food.png">
+                    </a>
+                </div>
+                <div class="search-box store-search-box">
+                    <form method=get id=small-search-box-form action=/search>
+                        <input type=text class=search-box-text id=small-searchterms autocomplete=off name=q placeholder="Tìm kiếm sản phẩm" aria-label="Tìm kiếm sản phẩm">
+                        <input type=submit class="button-1 search-box-button" value="Tìm kiếm">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class=header-menu>
+            <ul class="top-menu notmobile">
+                <li>
+                    <a href="">Trang chủ</a>
+                <li>
+                    <a href="">Ốc </a>
+                <li>
+                    <a href="">Nem </a>
+                <li>
+                    <a href="">Nước Ép</a>
+                    <div class=sublist-toggle></div>
+            </ul>
+            <div class=menu-toggle>Thực đơn</div>
+            <ul class="top-menu mobile">
+                <li>
+                    <a href="">Trang chủ</a>
+                <li>
+                    <a href="">Ốc </a>
+                <li>
+                    <a href="">Nem </a>
+                <li>
+                    <a href="">Nước Ép</a>
+            </ul>
+        </div>
+        <div class=master-wrapper-content>
+            <div class=master-column-wrapper>
+                <div class=center-1>
+                    <div class="page home-page">
+                        <div class=page-body>
+                            <div class="slider-wrapper theme-custom">
+                                <div id=nivo-slider class=nivoSlider>
+                                    <a href="" aria-label="">
+                                        <img src="~/images/banner/banner1.png" data-thumb="./images/banner/banner1.png" data-transition="" alt="">
+                                    </a>
+                                    <a href="" aria-label="">
+                                        <img src="~/images/banner/banner2.png" data-thumb="./images/banner/banner2.png" data-transition="" alt="">
+                                    </a>
+                                    <a href="" aria-label="">
+                                        <img src="~/images/banner/banner3.png" data-thumb="./images/banner/banner3.png" data-transition=slideInLeft alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-grid home-page-product-grid">
+                                <div class=title>
+                                    <strong>Sản phẩm đang mở bán</strong>
+                                </div>
+                                <div class=item-grid>
+                                    @foreach (var item in Model)
+                                    {
+                                        <div class="item-box">
+                                            <div class="product-item" data-productid="@item.Id">
+                                                <div class=picture>
+                                                    <a href="" title="">
+                                                        <img alt="@item.Tensp" src="~/images/@item.images" title="">
+                                                    </a>
+                                                </div>
+                                                <div class="details">
+                                                    <h2 class="product-title">
+                                                        <a href="" title="">@item.Tensp</a>
+                                                    </h2>
+                                                    <div class="description">Đơn vị tính: @item.Dvt</div>
+                                                    <div class="add-info">
+                                                        <div class="prices">
+                                                            <span class="price actual-price">&#x20AB; @item.Price</span>
+                                                        </div>
+                                                        <div class="buttons">
+                                                            <input type="button" value="Thêm vào giỏ" class="button-2 product-box-add-to-cart-button" onclick="addToCart(@item.Id,'@item.Tensp',@item.Price,1)">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=footer>
+            <div class=footer-upper>
+                <div class="footer-block information">
+                    <div class=title>
+                        <strong>Thông tin</strong>
+                    </div>
+                    <ul class=list>
+                        <li>
+                            <a href="" o>Về Quán Ăn Vặt HN</a>
+                    </ul>
+                </div>
+                <div class=newsletter-email>
+                    <input id=newsletter-email class=newsletter-subscribe-text placeholder="Ghi địa chỉ email của bạn ở đây..." aria-label="Đăng ký nhận bản tin của chúng tôi" type=email name=NewsletterEmail>
+                    <input type=button value="Theo dõi" id=newsletter-subscribe-button class="button-1 newsletter-subscribe-button">
+                </div>
+                <div class=newsletter-validation>
+                    <span id=subscribe-loading-progress style=display:none class=please-wait>Chờ đợi...</span>
+                    <span class=field-validation-valid data-valmsg-for=NewsletterEmail data-valmsg-replace=true></span>
+                </div>
+            </div>
+            <div class=newsletter-result id=newsletter-result-block></div>
+        </div>
+@*        <div class=footer-lower>
+        </div>*@
+    </body>
+</head>
+</html>
+<script src=~/lib/jquery-3.4.1.min.js></script>
+<script src=~/lib/jquery.validate.min.js></script>
+<script src=~/lib/jquery.validate.unobtrusive.min.js></script>
+<script src=~/lib/jquery-ui.min.js></script>
+<script src=~/lib/jquery-migrate-3.1.0.min.js></script>
+<script src=~/js/public.common.js></script>
+<script src=~/js/public.ajaxcart.js></script>
+<script src=~/js/public.countryselect.js></script>
+<script src=~/lib/jquery.nivo.slider.js></script>
+<script>
+    $(window).on("load", function () {
+        $("#nivo-slider").nivoSlider()
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        $(".header").on("mouseenter", "#topcartlink", function () {
+            $("#flyout-cart").addClass("active")
+        });
+        $(".header").on("mouseleave", "#topcartlink", function () {
+            $("#flyout-cart").removeClass("active")
+        });
+        $(".header").on("mouseenter", "#flyout-cart", function () {
+            $("#flyout-cart").addClass("active")
+        });
+        $(".header").on("mouseleave", "#flyout-cart", function () {
+            $("#flyout-cart").removeClass("active")
+        })
+    })
+</script>
+<script>
+    $("#small-search-box-form").on("submit", function (n) {
+        $("#small-searchterms").val() == "" && (alert("Vui lòng nhập một số từ khóa tìm kiếm"),
+            $("#small-searchterms").focus(),
+            n.preventDefault())
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        var n, t;
+        $("#small-searchterms").autocomplete({
+            delay: 500,
+            minLength: 3,
+            source: "/catalog/searchtermautocomplete",
+            appendTo: ".search-box",
+            select: function (n, t) {
+                return $("#small-searchterms").val(t.item.label),
+                    setLocation(t.item.producturl),
+                    !1
+            },
+            open: function () {
+                n && (t = document.getElementById("small-searchterms").value,
+                    $(".ui-autocomplete").append('<li class="ui-menu-item" role="presentation"><a href="/search?q=' + t + '">Xem tất cả kết quả ...<\/a><\/li>'))
+            }
+        }).data("ui-autocomplete")._renderItem = function (t, i) {
+            var r = i.label;
+            return n = i.showlinktoresultsearch,
+                r = htmlEncode(r),
+                $("<li><\/li>").data("item.autocomplete", i).append("<a><span>" + r + "<\/span><\/a>").appendTo(t)
+        }
+    })
+</script>
+<script>
+    var localized_data = {
+        AjaxCartFailure: "Failed to add the product. Please refresh the page and try one more time."
+    };
+    AjaxCart.init(!1, ".header-links .cart-qty", ".header-links .wishlist-qty", "#flyout-cart", localized_data)
+</script>
+<script>
+    $(document).ready(function () {
+        $(".menu-toggle").on("click", function () {
+            $(this).siblings(".top-menu.mobile").slideToggle("slow")
+        });
+        $(".top-menu.mobile .sublist-toggle").on("click", function () {
+            $(this).siblings(".sublist").slideToggle("slow")
+        })
+    })
+</script>
+<script>
+    function newsletter_subscribe(n) {
+        var t = $("#subscribe-loading-progress"), i;
+        t.show();
+        i = {
+            subscribe: n,
+            email: $("#newsletter-email").val()
+        };
+        $.ajax({
+            cache: !1,
+            type: "POST",
+            url: "/subscribenewsletter",
+            data: i,
+            success: function (n) {
+                $("#newsletter-result-block").html(n.Result);
+                n.Success ? ($("#newsletter-subscribe-block").hide(),
+                    $("#newsletter-result-block").show()) : $("#newsletter-result-block").fadeIn("slow").delay(2e3).fadeOut("slow")
+            },
+            error: function () {
+                alert("Failed to subscribe.")
+            },
+            complete: function () {
+                t.hide()
+            }
+        })
+    }
+    $(document).ready(function () {
+        $("#newsletter-subscribe-button").on("click", function () {
+            newsletter_subscribe("true")
+        });
+        $("#newsletter-email").on("keydown", function (n) {
+            if (n.keyCode == 13)
+                return $("#newsletter-subscribe-button").trigger("click"),
+                    !1
+        })
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        $(".footer-block .title").on("click", function () {
+            var n = window, t = "inner", i;
+            "innerWidth" in window || (t = "client",
+                n = document.documentElement || document.body);
+            i = {
+                width: n[t + "Width"],
+                height: n[t + "Height"]
+            };
+            i.width < 769 && $(this).siblings(".list").slideToggle("slow")
+        })
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        $(".block .title").on("click", function () {
+            var n = window, t = "inner", i;
+            "innerWidth" in window || (t = "client",
+                n = document.documentElement || document.body);
+            i = {
+                width: n[t + "Width"],
+                height: n[t + "Height"]
+            };
+            i.width < 1001 && $(this).siblings(".listbox").slideToggle("slow")
+        })
+    })
+</script>
+<script>
+    function addToCart(id, name, price, quantity) {
+            var data = {
+            id: id,
+            name: name,
+            price: price,
+            quantity: quantity
+            };
+        $.post("/Product/OnPostAddToCart", data, function (response) {
+                alert(response.message);
+            });
+        }
+    </script>
+<script>
+    // Hàm xử lý khi di chuột qua
+    function showCartInfo() {
+        var cartInfoDiv = document.getElementById("cartInfo");
+        var gioHangData = @Html.Raw(Json.Serialize(ViewData["GioHang"]));
+
+        // Tạo biến để lưu trữ nội dung thông tin giỏ hàng
+        var cartInfoContent = "<h2>Giỏ hàng</h2>";
+
+        if (gioHangData && gioHangData.length > 0) {
+            for (var i = 0; i < gioHangData.length; i++) {
+                var product = gioHangData[i];
+                cartInfoContent += "<p>" + product.Name + " - Giá: " + product.Price + " - Số lượng: " + product.Quantity + "</p>";
+            }
+        } else {
+            cartInfoContent += "<p>Giỏ hàng trống.</p>";
+        }
+
+        cartInfoDiv.innerHTML = cartInfoContent;
+        cartInfoDiv.style.display = "block";
+    }
+
+    // Hàm xử lý khi di chuột ra ngoài
+    function hideCartInfo() {
+        var cartInfoDiv = document.getElementById("cartInfo");
+        cartInfoDiv.style.display = "none";
+    }
+</script>

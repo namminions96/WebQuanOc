@@ -1,0 +1,158 @@
+﻿@{
+    Layout = "_Layout_admin_1";
+}
+<div class="container">
+<form style="font-size:small">
+    <table  border="1" id="tbllist" align="center">
+        <thead>
+            <tr class="table-active">
+                <th style="background-color:skyblue;">ID</th>
+                <th style="background-color:skyblue">Tên Sản Phẩm </th>
+                <th style="background-color:skyblue">Price</th>
+                <th style="background-color:skyblue;">Đơn Vị Tính</th>
+                <th style="background-color:skyblue">Title </th>
+                <th style="background-color:skyblue">Imges</th>
+                <th style="background-color:skyblue">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</form>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+
+<style type="text/css">
+    #tbllist_filter {
+        margin-bottom: 1%;
+    }
+</style>
+<script type="text/javascript">
+    var js = jQuery.noConflict(true);
+    js(document).ready(function () {
+        //js('#tbllist').DataTable({
+
+        //});
+        LoadListing();
+    });
+    function FunRemove(element) {
+        var code = $(element).closest('tr').find('input[type=hidden]').val();
+        if (confirm("do you want to remove?")) {
+            $.ajax({
+                type: "POST",
+                url: "/Product/Remove",
+                data: { code: code },
+                success: function (data) {
+                    if (data == 'pass') {
+                        //alert('Removed successfully.');
+                        window.location.reload();
+                    } else {
+                        alert("Failure due to :" + data)
+                    }
+                },
+                failure: function (err) {
+
+                }
+            });
+        }
+    }
+    function LoadListing() {
+        var empdata = [];
+        $.ajax({
+            type: "POST",
+            url: "/Product/GetAll",
+            async: false,
+            success: function (data) {
+                $.each(data, function (key, value) {
+                    var removebtn = "<a onclick='FunRemove(this)' class='btn btn-danger'>Xóa</a>";
+                    var hdn = "<input type='hidden' value=" + value.id + " />";
+                    var action = removebtn + hdn ;
+                    //editbtn + " | " +
+                    empdata.push([value.id, value.tensp, value.price, value.dvt, value.title, value.images, action]);// value.ngaysapsinhnhat
+                })
+            },
+            failure: function (err) {
+
+            }
+        });
+        dataTable = js('#tbllist').DataTable({
+            data: empdata,
+            columns: [
+                { title: 'ID' },
+                { title: 'Tên Sản Phẩm' },
+                { title: 'Price' },
+                { title: 'Đơn Vị Tính' },
+                { title: 'Title' },
+                { title: 'Imges' },
+                { title: 'Thao Tác' },
+            ],
+            columnDefs: [
+                { targets: -1, orderable: false }
+            ]
+        });
+    }
+    function EditData(element) {
+        var tr = $(element).closest('tr');
+        var row = dataTable.row(tr);
+        var rowData = row.data();
+
+        // Hiển thị ô chỉnh sửa và nút "Lưu"
+        tr.find('td:last-child').html('<button onclick="SaveData(this)" class="btn btn-success">Lưu</button>');
+
+        // Lặp qua các ô dữ liệu để cho phép chỉnh sửa
+        tr.find('td:not(:last-child)').each(function (index, cell) {
+            var value = rowData[index];
+            var input = '<input type="text" class="form-control" value="' + value + '" />';
+            $(cell).html(input);
+        });
+    }
+    function SaveData(element) {
+        var tr = $(element).closest('tr');
+        var row = dataTable.row(tr);
+        var rowData = row.data();
+
+        // Lặp qua các ô dữ liệu và lấy giá trị đã chỉnh sửa
+        tr.find('td').each(function (index, cell) {
+            var input = $(cell).find('input');
+            var newValue = input.val();
+
+            // Hiển thị giá trị đã chỉnh sửa
+            $(cell).html(newValue);
+            rowData[index] = newValue;
+        });
+
+        // Gửi dữ liệu lên máy chủ bằng Ajax
+        $.ajax({
+            type: "POST",
+            url: "/Home/UpdateData",
+            data: {
+                id: rowData[0],
+                hovaten: rowData[1],
+                ngaysinh: rowData[2],
+                cccd: rowData[3],
+                email: rowData[4],
+                sodienthoai: rowData[5],
+                sotiennap: rowData[6],
+                ngaytao: rowData[7],
+                status: rowData[8]
+            },
+            success: function (data) {
+                if (data === 'success') {
+                    alert('Cập nhật dữ liệu thành công.');
+                } else {
+                    alert('Có lỗi xảy ra khi cập nhật dữ liệu.');
+                }
+            },
+            failure: function (err) {
+                alert('Có lỗi xảy ra khi gửi yêu cầu.');
+            }
+        });
+
+        // Hiển thị lại ô chỉnh sửa và ẩn ô lưu
+        tr.find('td:last-child').html('<button onclick="EditData(this)" class="btn btn-primary">Sửa</button> | <button onclick="FunRemove(this)" class="btn btn-danger">Xóa</button> | <button onclick="FunEmail(this)" class="btn btn-primary">Email</button>');
+
+    }
+
+</script>

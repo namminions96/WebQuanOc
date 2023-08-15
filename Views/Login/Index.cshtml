@@ -1,0 +1,35 @@
+﻿@model CheckApiWeb.Models.login
+@{
+    Layout = "_Layout_admin_1";
+}
+<style>
+    .newsletter-subscribe {
+        margin: 0 auto;
+        max-width: 200px; 
+    }
+    .title {
+        margin: 0 auto; 
+        max-width: 200px; 
+    }
+</style>
+
+<div class=newsletter style="float:initial">
+    <div class=title >
+        <strong>Nhập tên Của Bạn </strong>
+    </div>
+    <div class=newsletter-subscribe id=newsletter-subscribe-block>
+        <form action="login" method="post">
+            <div class=newsletter-email>
+                <input type="text" placeholder="Nhập tên ở đây..." id="Name" asp-for="Name">
+            @*<input id=newsletter-email f class=newsletter-subscribe-text placeholder="Nhập tên ở đây..."  aria-label="Đăng ký nhận bản tin của chúng tôi" type="text" name=NewsletterEmail asp-for="Name">*@
+            <input type=submit value="Login" id=newsletter-subscribe-button class="button-1 newsletter-subscribe-button">
+        </div>
+       
+        <div class=newsletter-validation>
+            <span id=subscribe-loading-progress style=display:none class=please-wait>Chờ đợi...</span>
+            <span class=field-validation-valid data-valmsg-for=NewsletterEmail data-valmsg-replace=true></span>
+        </div>
+        </form>
+    </div>
+    <div class=newsletter-result id=newsletter-result-block></div>
+</div>
