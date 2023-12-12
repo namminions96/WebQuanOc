@@ -46,31 +46,50 @@
                         <div class=header-links>
                             <ul>
                                 <li>
-                                    <a href="" class=ico-register>Đăng ký</a>
-                                <li>
-                                    <a href="" class=ico-login>Chào : @ViewBag.Name</a>
-                                <li>
-                                    <a href="" class=ico-wishlist>
-                                        <span class=wishlist-label>Danh sách yêu thích</span>
-                                        <span class=wishlist-qty>(0)</span>
+                                    <a href="" class=ico-register>
+                                        @if (ViewBag.Name == null)
+                                        {
+                                            <a asp-action="Create" asp-controller="Login">Đăng kí</a>
+                                        }
+                                        else
+                                        {
+                                            <a asp-action="Index" asp-controller="Login">Đăng Xuất</a>
+                                        }
                                     </a>
+                                <li>
+                                    <a href="" class=ico-login>
+                                           @if (ViewBag.Name == null)
+                                            {
+                                            <a asp-action="Index" asp-controller="Login">Đăng nhập</a>
+                                            }
+                                            else
+                                            {
+                                            <a>Chào: @ViewBag.Name</a>
+                                            }
+                                    </a>
+                                <li>
+                                   <a asp-action="Order" asp-controller="Product" class=ico-wishlist>
+                                        <span class=wishlist-label>Xem đơn Hàng: </span>
+                                        <span class=wishlist-qty>(@ViewBag.donhang)</span>
+                                   </a>
                                 <li id=topcartlink>
                                     <a asp-action="Details" asp-controller="Product" class=ico-cart>
                                         <span class=cart-label>Giỏ hàng</span>
-                                        <span class=cart-qty>(0)</span>
+                                        <span class=cart-qty> @ViewBag.Count</span>
                                     </a>
                             </ul>
                         </div>
                         <div id=flyout-cart class=flyout-cart>
                             <div class=mini-shopping-cart>
                                 <div class=count>
-                                    Có <a href="">0 mục</a>
+                                    Có <a asp-action="Details" asp-controller="Product">@ViewBag.Count mục</a>
                                     trong giỏ hàng của bạn.
                                 </div>
+
                                 <div class=totals>
-                                    Thành tiền: <strong></strong>
+                                    Thành tiền: <strong>@ViewBag.TotalAmount</strong>
                                 </div>
-                                <div class=buttons>
+                                <div class=buttons>Thanh toán
                                 </div>
                             </div>
                         </div>
@@ -351,6 +370,7 @@
             };
         $.post("/Product/OnPostAddToCart", data, function (response) {
                 alert(response.message);
+            window.location.reload();
             });
         }
     </script>

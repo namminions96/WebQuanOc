@@ -1,0 +1,38 @@
+﻿@model CheckApiWeb.Models.CreateUser
+@{
+    Layout = "_Layout_admin_1";
+}
+<style>
+    .newsletter-subscribe {
+        margin: 0 auto;
+        max-width: 200px; 
+    }
+    .title {
+        margin: 0 auto; 
+        max-width: 200px; 
+    }
+</style>
+
+<div class=newsletter style="float:initial">
+    <div class=title >
+        <strong>Đăng Kí </strong>
+    </div>
+    <div class=newsletter-subscribe id=newsletter-subscribe-block>
+        <form action="Create" method="post">
+            <div class=newsletter-email>
+                <input type="text" placeholder="Nhập tên của bạn.." id="Name" asp-for="Name" width="240px">
+                <input type="text" placeholder="Nhập Số điện thoại..." id="soDienThoai" asp-for="soDienThoai" width="240px">
+                <input type="text" placeholder="Nhập tên tài khoản..." id="userName" asp-for="userName" width="240px">
+                <input type="password" placeholder="Nhập mật khẩu..." id="passWord" asp-for="passWord" width="240px">
+            @*<input id=newsletter-email f class=newsletter-subscribe-text placeholder="Nhập tên ở đây..."  aria-label="Đăng ký nhận bản tin của chúng tôi" type="text" name=NewsletterEmail asp-for="Name">*@
+            <input type=submit value="Đăng Kí" id=newsletter-subscribe-button class="button-1 newsletter-subscribe-button">
+        </div>
+       
+        <div class=newsletter-validation>
+            <span id=subscribe-loading-progress style=display:none class=please-wait>Chờ đợi...</span>
+            <span class=field-validation-valid data-valmsg-for=NewsletterEmail data-valmsg-replace=true></span>
+        </div>
+        </form>
+    </div>
+    <div class=newsletter-result id=newsletter-result-block></div>
+</div>

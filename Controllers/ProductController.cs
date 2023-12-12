@@ -19,63 +19,134 @@ namespace CheckApiWeb.Controllers
             _useDbcontext = useDbcontext;
             _environment = webHostEnvironment;
         }
-        public List<CardItem> Carts
-        {
-            get
-            {
-                var data = HttpContext.Session.Get<List<CardItem>>("GioHang");
-                if (data == null)
-                {
-                    return new List<CardItem>();
-                }
-                return data;
-            }
-            set
-            {
-                HttpContext.Session.Set("GioHang", value);
-            }
-        }
+        //public List<CardItem> Carts
+        //{
+        //    get
+        //    {
+        //        var data = HttpContext.Session.Get<List<CardItem>>("GioHang");
+        //        if (data == null)
+        //        {
+        //            return new List<CardItem>();
+        //        }
+        //        return data;
+        //    }
+        //    set
+        //    {
+        //        HttpContext.Session.Set("GioHang", value);
+        //    }
+        //}
         // GET: ProductController
         public ActionResult Index()
+        {
+            var userName = HttpContext.Session.GetString("Name");
+            //if (userName == null)
+            //{
+            //    return RedirectToAction("Index", "Login");
+            //}
+            var lsitem = _useDbcontext.Items.ToList();
+            ViewBag.Name = userName;
+            int count = _useDbcontext.CardItems.Count(p => p.User== userName);
+            ViewBag.Count = count;
+            int countdh = _useDbcontext.OrderHeaders.Count(p => p.User == userName);
+            ViewBag.donhang = countdh;
+            //------------------------------------------------------------------------------------//
+            var allItems = _useDbcontext.CardItems.ToList().Where(p => p.User == userName);
+            var cartItemsWithDetails = _useDbcontext.Items.ToList()
+                           .Join(allItems,
+            Items => Items.Id,
+            item => item.Iditem,
+            (Items, item) => new cart
+            {
+                Masp = Items.Id,
+                Giaban = Items.Price,
+                images = Items.images,
+                Tensp = Items.Tensp,
+                Soluong = item.Quantity,
+                TongTien = Items.Price * item.Quantity
+            })
+        .ToList();
+
+            double totalAmount = 0;
+            foreach (var item in cartItemsWithDetails)
+            {
+                totalAmount += item.Giaban * item.Soluong;
+            }
+            ViewBag.TotalAmount = totalAmount;
+
+
+
+            return View(lsitem);
+        }
+        //public IActionResult OnPostAddToCart(int id, string name, double price, int quantity)
+        //{
+        //    var cart = HttpContext.Session.Get<List<CardItem>>("GioHang") ?? new List<CardItem>();
+        //    var product = cart.Find(p => p.Iditem == id);
+        //    if (product != null)
+        //    {
+        //        product.Quantity += quantity;
+
+        //    }
+        //    else
+        //    {
+        //        CardItem item = new CardItem
+        //        {
+        //            Iditem = id,
+        //            Name = name,
+        //            Price = price,
+        //            Quantity = quantity
+        //        };
+        //        cart.Add(item);
+        //    }
+
+        //    HttpContext.Session.Set("GioHang", cart);
+        //    return new JsonResult(new { message = "Sản phẩm đã được thêm vào giỏ hàng thành công!" });
+        //}
+
+        public IActionResult OnPostAddToCart(int id, string name, double price, int quantity,string User)
+        {
+            var userName = HttpContext.Session.GetString("Name");
+            if (userName == null)
+            {
+                return new JsonResult(new { message = "vui lòng đăng nhập trược khi mua hàng !" });
+            }
+            var product = _useDbcontext.CardItems.FirstOrDefault(p => p.Iditem == id && p.User == userName);
+            if (product != null)
+            {
+                product.Quantity += quantity;
+                product.User = userName;
+                _useDbcontext.SaveChanges();
+            }
+            else
+            {
+                var item = new CardItem()
+                {
+                    Iditem = id,
+                    Name = name,
+                    Price = price,
+                    Quantity = quantity,
+                    User = userName
+                };
+                _useDbcontext.CardItems.Add(item);
+                _useDbcontext.SaveChanges();
+            }
+            return new JsonResult(new { message = "Sản phẩm đã được thêm vào giỏ hàng thành công!" });
+        }
+
+        // GET: ProductController/Details/5
+        public ActionResult<cart> Details()
         {
             var userName = HttpContext.Session.GetString("Name");
             if (userName == null)
             {
                 return RedirectToAction("Index", "Login");
             }
-            var lsitem = _useDbcontext.Items.ToList();
-            ViewBag.Name = userName;
-     
-            return View(lsitem);
-        }
-        public IActionResult OnPostAddToCart(int id, string name, double price, int quantity)
-        {
-            var cart = HttpContext.Session.Get<List<CardItem>>("GioHang") ?? new List<CardItem>();
-            var product = cart.Find(p => p.Iditem == id);
-            if (product != null)
-            {
-                product.Quantity += quantity;
-              
-            }
-            else
-            {
-                CardItem item = new CardItem
-                {
-                    Iditem = id,
-                    Name = name,
-                    Price = price,
-                    Quantity = quantity
-                };
-                cart.Add(item);
-            }
-
-            HttpContext.Session.Set("GioHang", cart);
-            return new JsonResult(new { message = "Sản phẩm đã được thêm vào giỏ hàng thành công!" });
-        }
-    // GET: ProductController/Details/5
-    public ActionResult<cart> Details(int id)
-        {
-            var allItems = Carts.ToList();
+            @ViewBag.Name = userName;
+            int count = _useDbcontext.CardItems.Count(p => p.User == userName);
+            ViewBag.Count = count;
+            int countdh = _useDbcontext.OrderHeaders.Count(p => p.User == userName);
+            ViewBag.donhang = countdh;
+            //--------------------------------------------------------
+            var allItems = _useDbcontext.CardItems.ToList().Where(p=> p.User == userName);
             var cartItemsWithDetails = _useDbcontext.Items.ToList()
                            .Join(allItems,
             Items => Items.Id,
@@ -169,65 +240,87 @@ namespace CheckApiWeb.Controllers
             }
         }
 
-        // GET: ProductController/Edit/5
+       // GET: ProductController/Edit/5
         public ActionResult Edit(int id)
+        {
+            return RedirectToAction("Detail", "Product");
+        }
+
+        // post: productcontroller/edit/5
+        [HttpPost]
+        public ActionResult Edit(string Ten, string sdt,string diachi)
+        {
+            try
+            {
+                if (Ten == null && sdt == null && diachi == null)
+                {
+                    return new JsonResult(new { message = $"Bạn chưa nhập thông tin giao hàng!" });
+                }
+                double totalAmount = 0;
+                var userName = HttpContext.Session.GetString("Name");
+                var sodh = _useDbcontext.ConfigOrders.FirstOrDefault(p=> p.Name=="SaleOrder");
+                var getdh = _useDbcontext.CardItems.ToList().Where(p => p.User == userName);
+                var savedh = new OrderDetail();
+                foreach (var item in getdh)
+                {
+                    savedh.Id = 0;
+                    savedh.userid = item.User;
+                    savedh.OrderDate = DateTime.Now;
+                    savedh.Status = false;
+                    savedh.Tensp = item.Name;
+                    savedh.Masp = item.Iditem;
+                    savedh.Soluong = item.Quantity;
+                    savedh.TongTien = item.Price * item.Quantity;
+                    _useDbcontext.Add(savedh);
+                    _useDbcontext.SaveChanges();
+                    totalAmount += item.Price * item.Quantity;
+                }
+                var saveheader = new OrderHeader()
+                {
+                    Id=0,
+                    Madh = sodh.MaOrder + 1,
+                    Tenkh = Ten,
+                    Diachi = diachi,
+                    Sodienthoai = sdt,
+                    Orderdate = DateTime.Now,
+                    Tongtien = totalAmount,
+                    Status = false,
+                    User = userName
+                };
+                _useDbcontext.OrderHeaders.Add(saveheader);
+                _useDbcontext.SaveChanges();
+                foreach (var item in getdh)
+                {
+                    _useDbcontext.CardItems.Remove(item);
+                }
+                _useDbcontext.SaveChanges();
+                    return new JsonResult(new { message = $"Sản phẩm đã được đặt thành công mã đơn hàng là : {saveheader.Madh}!" });
+            }
+            catch(Exception ex)
+            {
+                return View(ex.Message);
+            }
+
+        }
+        // GET: ProductController/Delete/5
+        public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: ProductController/Edit/5
-        [HttpPost]
-        public ActionResult Edit()
-        {
-            try
-            {
-                var name = HttpContext.Session.GetString("Name");
-                var userid = HttpContext.Session.GetString("Table");
-                var table = userid != null ? userid : name;
-                var allItems = Carts.ToList();
-                //var card1 = _useDbcontext.cartSaves.ToList()
-                //    .Join(allItems, a => a.Masp, b => b.Iditem, (a, b)
-                //    => new
-                //    {
-                //        b.Price,
-                //        b.Iditem,b.Quantity,b.Name
-                //    }).ToList();
-                CartSave cartSaves = new CartSave();
-                foreach (var item in allItems)
-                {
-                 var check = _useDbcontext.cartSaves.FirstOrDefault(p=> p.Masp == item.Iditem && p.userid == userid);
-
-                    if (check ==null)
-                    {
-                    cartSaves.Id = 0;
-                    cartSaves.userid = userid;
-                    cartSaves.OrderDate = DateTime.Now.Date;
-                    cartSaves.Status = false;
-                    cartSaves.Tensp = item.Name;
-                    cartSaves.Giaban = item.Price;
-                    cartSaves.Masp = item.Iditem;
-                    cartSaves.TongTien = item.Price * item.Quantity;
-                    cartSaves.Soluong = item.Quantity;
-                    cartSaves.Name = name;
-                    _useDbcontext.cartSaves.Add(cartSaves);
-                    _useDbcontext.SaveChanges();
-                    }
-                    else
-                    {
-                        check.Soluong= item.Quantity;
-                        _useDbcontext.SaveChanges();
-                    }
-                }
-                return RedirectToAction("Index");
-            } catch
-            {
-                return View();
-            }
-        }
-
         // GET: ProductController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Order(int id)
         {
+            var userName = HttpContext.Session.GetString("Name");
+            if (userName == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
+            @ViewBag.Name = userName;
+            int count = _useDbcontext.CardItems.Count(p => p.User == userName);
+            ViewBag.Count = count;
+            int countdh = _useDbcontext.OrderHeaders.Count(p => p.User == userName);
+            ViewBag.donhang = countdh;
             return View();
         }
 
@@ -254,6 +347,13 @@ namespace CheckApiWeb.Controllers
             var Response = await GetUsersn();
             return Json(Response);
         }
+
+
+        public async Task<IActionResult> GetAllOrder()
+        {
+            var Response = await GetAllOrderdetail();
+            return Json(Response);
+        }
         public async Task<List<Item>> GetUsersn()
         {
             //var _data = await _useDbcontext.Usertblists.FromSqlRaw("Select id,HovaTen,NgaySinh,CCCD,Email,SoDienThoai,SoTienNap,NgayTao,Status,Ngaysapsinhnhat  from (SELECT *,(month(Ngaysinh)-month(curdate())) as Thang,day(Ngaysinh)-Day(curdate()) as NgaySapSinhNhat FROM `db_report`.`usertb`) as A where Thang=0 and  Ngaysapsinhnhat between '0' and '7'").ToListAsync();//where Thang=0 and  Ngaysapsinhnhat between '0' and '7'
@@ -277,9 +377,48 @@ namespace CheckApiWeb.Controllers
             }
             return usertb1;
         }
+
+        public async Task<List<OrderHeader>> GetAllOrderdetail()
+        {
+            var userName = HttpContext.Session.GetString("Name");
+            if (userName == null)
+            {
+                return new List<OrderHeader>();
+            }
+            //var _data = await _useDbcontext.Usertblists.FromSqlRaw("Select id,HovaTen,NgaySinh,CCCD,Email,SoDienThoai,SoTienNap,NgayTao,Status,Ngaysapsinhnhat  from (SELECT *,(month(Ngaysinh)-month(curdate())) as Thang,day(Ngaysinh)-Day(curdate()) as NgaySapSinhNhat FROM `db_report`.`usertb`) as A where Thang=0 and  Ngaysapsinhnhat between '0' and '7'").ToListAsync();//where Thang=0 and  Ngaysapsinhnhat between '0' and '7'
+            var _data = _useDbcontext.OrderHeaders.Where(p=> p.User == userName).ToList();
+            List<OrderHeader> Order = new List<OrderHeader>();
+            if (_data != null && _data.Count > 0)
+            {
+                _data.ForEach(item =>
+                {
+
+                    Order.Add(new OrderHeader()
+                    {
+                        Id = item.Id,
+                        Tenkh = item.Tenkh,
+                        Madh = item.Madh,
+                        Diachi = item.Diachi,
+                        Sodienthoai = item.Sodienthoai,
+                        Status = item.Status,
+                        Orderdate = item.Orderdate,
+                        Tongtien = item.Tongtien,
+                        User = item.User
+                    });
+                });
+            }
+            return Order;
+        }
+
         public async Task<IActionResult> Remove(string code)
         {
             string Response = await RemoveEmployee(Convert.ToInt32(code));
+            return Json(Response);
+        }
+
+        public async Task<IActionResult> RemoveCart(string masp)
+        {
+            string Response = await RemoveCart(Convert.ToInt32(masp));
             return Json(Response);
         }
         public async Task<string> RemoveEmployee(int Code)
@@ -301,6 +440,27 @@ namespace CheckApiWeb.Controllers
             }
             return Response;
         }
+
+
+        public async Task<string> RemoveCart(int Code)
+        {
+            var _data = await _useDbcontext.CardItems.FirstOrDefaultAsync(item => item.Id == Code);
+            string Response = string.Empty;
+            if (_data != null)
+            {
+                try
+                {
+                    _useDbcontext.CardItems.Remove(_data);
+                    await _useDbcontext.SaveChangesAsync();
+                    Response = "pass";
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+            return Response;
+        }
         [HttpGet]
         public ActionResult gettable(string table)
         {
@@ -310,19 +470,35 @@ namespace CheckApiWeb.Controllers
             }
            return RedirectToAction("Index");
         }
-        public IActionResult RemoveFromCart(int productId)
+        public async Task<string> RemoveFromCart(int masp)
         {
-            // Kiểm tra xem sản phẩm có trong giỏ hàng không
-          
-                // Tìm sản phẩm trong giỏ hàng và xóa nó
-                var itemToRemove = Carts.SingleOrDefault(item => item.Iditem == productId);
-                if (itemToRemove != null)
+            var itemToRemove = _useDbcontext.CardItems.SingleOrDefault(item => item.Iditem == masp);
+            string Response = string.Empty;
+            if (itemToRemove != null)
                 {
-                    Carts.Remove(itemToRemove);
+               _useDbcontext.CardItems.Remove(itemToRemove);
+               await _useDbcontext.SaveChangesAsync();
+                Response = "pass";
+            }
+            return Response; 
+        }
+        public ActionResult UpdateCart(int Iditem,int Quantity)
+        {
+            try
+            {
+                var userName = HttpContext.Session.GetString("Name");
+                var cart = _useDbcontext.CardItems.FirstOrDefault(p => p.Iditem == Iditem && p.User == userName);
+                if (cart != null)
+                {
+                    cart.Quantity = Quantity;
                 }
-                HttpContext.Session.Set("GioHang", System.Text.Json.JsonSerializer.SerializeToUtf8Bytes(Carts));
-
-            return RedirectToAction("Detail", "Product"); 
+                _useDbcontext.SaveChanges();
+                return RedirectToAction("Detail", "Product");
+            }
+            catch
+            {
+                return RedirectToAction("Detail", "Product");
+            }
         }
     }
 }

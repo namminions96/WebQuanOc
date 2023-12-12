@@ -19,7 +19,115 @@ namespace CheckApiWeb.Migrations
                 .HasAnnotation("ProductVersion", "7.0.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("CheckApiWeb.Models.CartSave", b =>
+            modelBuilder.Entity("CheckApiWeb.Models.CardItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Iditem")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("longtext");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("double");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("User")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CardItems");
+                });
+
+            modelBuilder.Entity("CheckApiWeb.Models.ConfigOrder", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("Fromdate")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int?>("MaOrder")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("MaxOrder")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("longtext");
+
+                    b.Property<bool?>("Status")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime?>("Todate")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ConfigOrders");
+                });
+
+            modelBuilder.Entity("CheckApiWeb.Models.CreateUser", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("passWord")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("soDienThoai")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("userName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("CreateUsers");
+                });
+
+            modelBuilder.Entity("CheckApiWeb.Models.Item", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Dvt")
+                        .HasColumnType("longtext");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("double");
+
+                    b.Property<string>("Tensp")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("images")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Items");
+                });
+
+            modelBuilder.Entity("CheckApiWeb.Models.OrderDetail", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -54,33 +162,43 @@ namespace CheckApiWeb.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("cartSaves");
+                    b.ToTable("OrderDetails");
                 });
 
-            modelBuilder.Entity("CheckApiWeb.Models.Item", b =>
+            modelBuilder.Entity("CheckApiWeb.Models.OrderHeader", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Dvt")
+                    b.Property<string>("Diachi")
                         .HasColumnType("longtext");
 
-                    b.Property<double>("Price")
+                    b.Property<int?>("Madh")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Sodienthoai")
+                        .HasColumnType("longtext");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("TenKh")
+                        .HasColumnType("longtext");
+
+                    b.Property<double>("Tongtien")
                         .HasColumnType("double");
 
-                    b.Property<string>("Tensp")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Title")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("images")
+                    b.Property<string>("User")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Items");
+                    b.ToTable("OrderHeaders");
                 });
 
             modelBuilder.Entity("CheckApiWeb.Models.cart", b =>
@@ -89,14 +207,23 @@ namespace CheckApiWeb.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<string>("Diachi")
+                        .HasColumnType("longtext");
+
                     b.Property<double>("Giaban")
                         .HasColumnType("double");
 
                     b.Property<int?>("Masp")
                         .HasColumnType("int");
 
+                    b.Property<string>("Sodienthoai")
+                        .HasColumnType("longtext");
+
                     b.Property<int>("Soluong")
                         .HasColumnType("int");
+
+                    b.Property<string>("TenNguoinhan")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Tensp")
                         .HasColumnType("longtext");
@@ -105,12 +232,30 @@ namespace CheckApiWeb.Migrations
                         .HasColumnType("double");
 
                     b.Property<string>("images")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
                     b.ToTable("Carts");
+                });
+
+            modelBuilder.Entity("CheckApiWeb.Models.login", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("passWord")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("userName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Logins");
                 });
 #pragma warning restore 612, 618
         }

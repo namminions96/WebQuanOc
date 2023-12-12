@@ -2,6 +2,8 @@
 {
     public class login
     {
-        public string Name { get; set; }
+        public int ID { get; set; }
+        public string userName { get; set; }
+        public string passWord { get; set; }
     }
 }

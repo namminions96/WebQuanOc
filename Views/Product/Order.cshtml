@@ -1,0 +1,149 @@
+﻿@{
+    Layout = "_Layout2";
+}
+<div class="container">
+<form style="font-size:small">
+    <table  border="1" id="tbllist" align="center">
+        <thead>
+            <tr class="table-active">
+@*                <th style="background-color:skyblue;">ID</th>
+                <th style="background-color:skyblue">Mã Đơn Hàng </th>
+                <th style="background-color:skyblue">Tên Khách Hàng</th>
+                <th style="background-color:skyblue;">Số Điện Thoại</th>
+                <th style="background-color:skyblue">Tổng Tiền </th>
+                <th style="background-color:skyblue">Địa chỉ</th>
+                <th style="background-color:skyblue">Ngày Đặt</th>
+                <th style="background-color:skyblue">Trang thái</th>
+                    <th style="background-color:skyblue">Action</th>*@
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</form>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+
+<style type="text/css">
+    #tbllist_filter {
+        margin-bottom: 1%;
+    }
+
+    #tbllist thead th {
+        background-color: skyblue; /* Set the text color for header titles to red */
+    }
+    #tbllist tbody tr:nth-child(odd) {
+        background-color: #f2f2f2; /* Set the background color for odd rows */
+    }
+
+    #tbllist tbody tr:nth-child(even) {
+        background-color: #ffffff; /* Set the background color for even rows */
+    }
+</style>
+<script type="text/javascript">
+    var js = jQuery.noConflict(true);
+    js(document).ready(function () {
+        //js('#tbllist').DataTable({
+
+        //});
+        LoadListing();
+    });
+    function FunRemove(element) {
+        var code = $(element).closest('tr').find('input[type=hidden]').val();
+        if (confirm("do you want to remove?")) {
+            $.ajax({
+                type: "POST",
+                url: "/Product/Remove",
+                data: { code: code },
+                success: function (data) {
+                    if (data == 'pass') {
+                        //alert('Removed successfully.');
+                        window.location.reload();
+                    } else {
+                        alert("Failure due to :" + data)
+                    }
+                },
+                failure: function (err) {
+
+                }
+            });
+        }
+    }
+    function LoadListing() {
+        var empdata = [];
+        $.ajax({
+            type: "POST",
+            url: "/Product/GetAllOrder",
+            async: false,
+            success: function (data) {
+                $.each(data, function (key, value) {
+                    var removebtn = "<a onclick='LoadListingdetail(this)' class='btn btn-danger'>View</a>";
+                    var hdn = "<input type='hidden' value=" + value.id + " />";
+                    var action = removebtn + hdn ;
+                    //editbtn + " | " +
+                    empdata.push([value.id, value.madh, value.tenkh, value.sodienthoai, value.tongtien, value.diachi, value.orderdate, value.status, action]);
+                })
+            },
+            failure: function (err) {
+
+            }
+        });
+        dataTable = js('#tbllist').DataTable({
+            data: empdata,
+            columns: [
+                { title: 'ID' },
+                { title: 'Mã Đơn Hàng' },
+                { title: 'Tên Khách Hàng' },
+                { title: 'Số Điện Thoại' },
+                { title: 'Tổng Tiền' },
+                { title: 'Địa chỉ' },
+                { title: 'Ngày Đặt' },
+                { title: 'Trang thái' },
+                { title: 'Action' },
+            ],
+            columnDefs: [
+                { targets: -1, orderable: false }
+            ]
+        });
+    }
+    function LoadListingdetail() {
+        var empdata = [];
+        $.ajax({
+            type: "POST",
+            url: "/Product/GetAll",
+            async: false,
+            success: function (data) {
+                $.each(data, function (key, value) {
+                    var removebtn = "<a onclick='FunRemove(this)' class='btn btn-danger'>Xóa</a>";
+                    var hdn = "<input type='hidden' value=" + value.id + " />";
+                    var action = removebtn + hdn;
+                    //editbtn + " | " +
+                    empdata.push([value.id, value.tensp, value.price, value.dvt, value.title, value.images, action]);// value.ngaysapsinhnhat
+                })
+            },
+            failure: function (err) {
+
+            }
+        });
+        dataTable = js('#tbllist').DataTable({
+            data: empdata,
+            columns: [
+                { title: 'ID' },
+                { title: 'Mã Đơn Hàng' },
+                { title: 'Tên Khách Hàng' },
+                { title: 'Số Điện Thoại' },
+                { title: 'Tổng Tiền' },
+                { title: 'Địa chỉ' },
+                { title: 'Ngày Đặt' },
+                { title: 'Trang thái' },
+            ],
+            columnDefs: [
+                { targets: -1, orderable: false }
+            ]
+        });
+    }
+   
+
+</script>

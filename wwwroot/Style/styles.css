@@ -89,6 +89,7 @@ input[type="email"],
 input[type="tel"],
 input[type="password"],
 textarea, select {
+	width:240px;
     height: 36px; /*safari padding fix*/
     border: 1px solid #ddd;
     padding: 8px;
@@ -1029,6 +1030,12 @@ label, label + * {
 	width: 180px;
 	height: 36px;
 	margin: 0 -1px 0 0;
+}
+.newsletter-email input[type="password"] {
+		float: left;
+		width: 240px;
+		height: 36px;
+		margin: 0 -1px 0 0;
 }
 .newsletter-subscribe-button {
 	float: left;
@@ -6839,6 +6846,9 @@ pre {
 }
 .newsletter-email input[type="text"] {
 	width: 200px;
+}
+.newsletter-email input[type="password"] {
+		width: 200px;
 }
 .newsletter-email .newsletter-subscribe-button {
 	width: 100px;

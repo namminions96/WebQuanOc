@@ -20,16 +20,17 @@
     <div class=newsletter-subscribe id=newsletter-subscribe-block>
         <form action="login" method="post">
             <div class=newsletter-email>
-                <input type="text" placeholder="Nhập tên ở đây..." id="Name" asp-for="Name">
+                <input type="text" placeholder="Nhập Tên Tài Khoản ở đây..." id="Name" asp-for="userName">
+                <input type="password" placeholder="Nhập Mật Khẩu ở đây..." id="Name" asp-for="passWord">
             @*<input id=newsletter-email f class=newsletter-subscribe-text placeholder="Nhập tên ở đây..."  aria-label="Đăng ký nhận bản tin của chúng tôi" type="text" name=NewsletterEmail asp-for="Name">*@
             <input type=submit value="Login" id=newsletter-subscribe-button class="button-1 newsletter-subscribe-button">
         </div>
-       
         <div class=newsletter-validation>
             <span id=subscribe-loading-progress style=display:none class=please-wait>Chờ đợi...</span>
             <span class=field-validation-valid data-valmsg-for=NewsletterEmail data-valmsg-replace=true></span>
         </div>
         </form>
+            <a asp-action="Create" asp-controller="Login">Đăng Kí</a>
     </div>
     <div class=newsletter-result id=newsletter-result-block></div>
 </div>

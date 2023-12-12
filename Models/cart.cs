@@ -8,6 +8,9 @@
         public double Giaban { get; set; }
         public int Soluong { get; set; }
         public double? TongTien { get; set;}
-        public string images { get; set; }
+        public string? images { get; set; }
+        public string? TenNguoinhan { get; set; }
+        public string? Sodienthoai { get; set; }
+        public string? Diachi { get; set; }
     }
 }
